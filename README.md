@@ -44,6 +44,9 @@ python scripts/download_external_data.py --core-only   # ~1 min, needs git + int
 2. **Run all experiments** – open `notebooks/hinglish_absa.ipynb` and *Run All* (≈3 min on CPU in demo mode; ≈15–20 min with 2,500 real reviews — the sarcasm transfer experiments are the slow part). It prints every table, saves figures/CSVs in `results/` and the trained model in `models/`.
 3. **Live demo:** `streamlit run app.py` → browser opens at http://localhost:8501. Type a Hinglish review (optionally choose the star rating) → aspects, per-aspect sentiment, sarcasm flag, and the evidence.
 
+## Live demo using clickable link
+https://hinglish-absa-eretvxjs3ip9vktdc2dqfa.streamlit.app/
+
 ## Honest-reporting rule built into the code
 The notebook detects whether `data/labelled/` exists. If not, every output is tagged `[DEMO-SYNTHETIC]` and the app shows a warning banner. Only two experiments always use real data: the LID model (L3Cube-HingLID + Swami cross-check) and the sarcasm benchmark on the Swami et al. (2018) corpus.
 
