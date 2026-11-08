@@ -1,0 +1,4 @@
+setting,all_f1_macro,all_accuracy,sarcastic_subset_accuracy,sarcastic_subset_n
+without sarcasm handling,0.7171,0.8799,0.6842,19
+with sarcasm handling (predicted),0.7169,0.8797,0.6842,19
+with sarcasm handling (oracle gold flags),0.7179,0.8811,0.8947,19

@@ -1,0 +1,7 @@
+setting,f1_macro,±std,accuracy,precision_macro,recall_macro
+no window (full text),0.7348,0.0352,0.8877,0.7374,0.7324
+window k=3,0.6943,0.0359,0.8694,0.7177,0.6804
+window k=5,0.7171,0.0358,0.8799,0.7348,0.7047
+window k=8,0.7197,0.0434,0.8827,0.7344,0.7087
+"window k=5, no clause stop",0.7098,0.0296,0.8758,0.732,0.6956
+"window k=5, no lexicon feats",0.6972,0.0143,0.8786,0.732,0.6795

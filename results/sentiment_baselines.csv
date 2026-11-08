@@ -1,0 +1,4 @@
+,accuracy,precision_macro,recall_macro,f1_macro,f1_macro_std,n_splits,time_s
+ComplementNB,0.8691,0.7126,0.7187,0.7155,0.0349,5.0,2.1
+LogisticRegression,0.8799,0.7348,0.7047,0.7171,0.0358,5.0,6.2
+LinearSVM(calibrated),0.8813,0.7743,0.6314,0.6394,0.0124,5.0,7.0

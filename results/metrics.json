@@ -1,0 +1,375 @@
+{
+  "data_mode": "REAL",
+  "dataset": {
+    "mode": "REAL",
+    "n_reviews": 2500,
+    "n_instances": 3590,
+    "sarcastic_rate": 0.0068,
+    "sentiment_dist": {
+      "negative": 1960,
+      "positive": 1485,
+      "neutral": 145
+    },
+    "aspect_dist": {
+      "app_support": 1332,
+      "delivery_speed": 581,
+      "product_quality": 510,
+      "price": 466,
+      "general": 366,
+      "delivery_partner": 229,
+      "packaging": 106
+    }
+  },
+  "lid": {
+    "l3cube_test_acc": 0.962507479608226,
+    "swami_cross_acc": 0.9160424665869369,
+    "train_tokens": 200000
+  },
+  "sentiment_cv": {
+    "nb": {
+      "accuracy": 0.8691,
+      "precision_macro": 0.7126,
+      "recall_macro": 0.7187,
+      "f1_macro": 0.7155,
+      "f1_macro_std": 0.0349,
+      "n_splits": 5,
+      "time_s": 2.1
+    },
+    "lr": {
+      "accuracy": 0.8799,
+      "precision_macro": 0.7348,
+      "recall_macro": 0.7047,
+      "f1_macro": 0.7171,
+      "f1_macro_std": 0.0358,
+      "n_splits": 5,
+      "time_s": 6.2
+    },
+    "svm": {
+      "accuracy": 0.8813,
+      "precision_macro": 0.7743,
+      "recall_macro": 0.6314,
+      "f1_macro": 0.6394,
+      "f1_macro_std": 0.0124,
+      "n_splits": 5,
+      "time_s": 7.0
+    }
+  },
+  "best_sentiment": "lr",
+  "window_ablation": [
+    {
+      "setting": "no window (full text)",
+      "f1_macro": 0.7348,
+      "\u00b1std": 0.0352,
+      "accuracy": 0.8877,
+      "precision_macro": 0.7374,
+      "recall_macro": 0.7324
+    },
+    {
+      "setting": "window k=3",
+      "f1_macro": 0.6943,
+      "\u00b1std": 0.0359,
+      "accuracy": 0.8694,
+      "precision_macro": 0.7177,
+      "recall_macro": 0.6804
+    },
+    {
+      "setting": "window k=5",
+      "f1_macro": 0.7171,
+      "\u00b1std": 0.0358,
+      "accuracy": 0.8799,
+      "precision_macro": 0.7348,
+      "recall_macro": 0.7047
+    },
+    {
+      "setting": "window k=8",
+      "f1_macro": 0.7197,
+      "\u00b1std": 0.0434,
+      "accuracy": 0.8827,
+      "precision_macro": 0.7344,
+      "recall_macro": 0.7087
+    },
+    {
+      "setting": "window k=5, no clause stop",
+      "f1_macro": 0.7098,
+      "\u00b1std": 0.0296,
+      "accuracy": 0.8758,
+      "precision_macro": 0.732,
+      "recall_macro": 0.6956
+    },
+    {
+      "setting": "window k=5, no lexicon feats",
+      "f1_macro": 0.6972,
+      "\u00b1std": 0.0143,
+      "accuracy": 0.8786,
+      "precision_macro": 0.732,
+      "recall_macro": 0.6795
+    }
+  ],
+  "swami_sarcasm_benchmark": [
+    {
+      "model": "nb",
+      "features": "text only",
+      "f1_sarcastic": 0.7471,
+      "precision_sarcastic": 0.6433,
+      "recall_sarcastic": 0.8909,
+      "f1_macro": 0.8572,
+      "accuracy": 0.9421,
+      "time_s": 22.1
+    },
+    {
+      "model": "nb",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.1958,
+      "precision_sarcastic": 0.1141,
+      "recall_sarcastic": 0.6885,
+      "f1_macro": 0.3931,
+      "accuracy": 0.4571,
+      "time_s": 38.0
+    },
+    {
+      "model": "nb",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.7446,
+      "precision_sarcastic": 0.6427,
+      "recall_sarcastic": 0.8849,
+      "f1_macro": 0.8558,
+      "accuracy": 0.9417,
+      "time_s": 61.0
+    },
+    {
+      "model": "lr",
+      "features": "text only",
+      "f1_sarcastic": 0.7831,
+      "precision_sarcastic": 0.6719,
+      "recall_sarcastic": 0.9385,
+      "f1_macro": 0.8775,
+      "accuracy": 0.9501,
+      "time_s": 22.7
+    },
+    {
+      "model": "lr",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.2397,
+      "precision_sarcastic": 0.1521,
+      "recall_sarcastic": 0.5655,
+      "f1_macro": 0.5085,
+      "accuracy": 0.6556,
+      "time_s": 38.2
+    },
+    {
+      "model": "lr",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.7901,
+      "precision_sarcastic": 0.6751,
+      "recall_sarcastic": 0.9524,
+      "f1_macro": 0.8813,
+      "accuracy": 0.9514,
+      "time_s": 61.3
+    },
+    {
+      "model": "svm",
+      "features": "text only",
+      "f1_sarcastic": 0.7855,
+      "precision_sarcastic": 0.6818,
+      "recall_sarcastic": 0.9266,
+      "f1_macro": 0.8791,
+      "accuracy": 0.9514,
+      "time_s": 23.9
+    },
+    {
+      "model": "svm",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.0039,
+      "precision_sarcastic": 0.25,
+      "recall_sarcastic": 0.002,
+      "f1_macro": 0.4766,
+      "accuracy": 0.9036,
+      "time_s": 38.0
+    },
+    {
+      "model": "svm",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.7848,
+      "precision_sarcastic": 0.6828,
+      "recall_sarcastic": 0.9226,
+      "f1_macro": 0.8787,
+      "accuracy": 0.9514,
+      "time_s": 63.6
+    }
+  ],
+  "sarcasm_reviews": [
+    {
+      "train_set": "reviews only",
+      "model": "nb",
+      "features": "text only",
+      "f1_sarcastic": 0.0656,
+      "precision_sarcastic": 0.0455,
+      "recall_sarcastic": 0.1176,
+      "f1_macro": 0.527,
+      "accuracy": 0.9772
+    },
+    {
+      "train_set": "reviews only",
+      "model": "nb",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.0352,
+      "precision_sarcastic": 0.0181,
+      "recall_sarcastic": 0.5882,
+      "f1_macro": 0.4558,
+      "accuracy": 0.7808
+    },
+    {
+      "train_set": "reviews only",
+      "model": "nb",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.0714,
+      "precision_sarcastic": 0.0513,
+      "recall_sarcastic": 0.1176,
+      "f1_macro": 0.5305,
+      "accuracy": 0.9792
+    },
+    {
+      "train_set": "reviews only",
+      "model": "lr",
+      "features": "text only",
+      "f1_sarcastic": 0.0,
+      "precision_sarcastic": 0.0,
+      "recall_sarcastic": 0.0,
+      "f1_macro": 0.4979,
+      "accuracy": 0.9916
+    },
+    {
+      "train_set": "reviews only",
+      "model": "lr",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.0403,
+      "precision_sarcastic": 0.0209,
+      "recall_sarcastic": 0.5882,
+      "f1_macro": 0.4673,
+      "accuracy": 0.8096
+    },
+    {
+      "train_set": "reviews only",
+      "model": "lr",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.1667,
+      "precision_sarcastic": 0.2857,
+      "recall_sarcastic": 0.1176,
+      "f1_macro": 0.5813,
+      "accuracy": 0.992
+    },
+    {
+      "train_set": "reviews only",
+      "model": "svm",
+      "features": "text only",
+      "f1_sarcastic": 0.0,
+      "precision_sarcastic": 0.0,
+      "recall_sarcastic": 0.0,
+      "f1_macro": 0.4983,
+      "accuracy": 0.9932
+    },
+    {
+      "train_set": "reviews only",
+      "model": "svm",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.0,
+      "precision_sarcastic": 0.0,
+      "recall_sarcastic": 0.0,
+      "f1_macro": 0.4983,
+      "accuracy": 0.9932
+    },
+    {
+      "train_set": "reviews only",
+      "model": "svm",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.0,
+      "precision_sarcastic": 0.0,
+      "recall_sarcastic": 0.0,
+      "f1_macro": 0.4982,
+      "accuracy": 0.9928
+    },
+    {
+      "train_set": "reviews + Swami (transfer)",
+      "model": "nb",
+      "features": "text only",
+      "f1_sarcastic": 0.0435,
+      "precision_sarcastic": 0.0345,
+      "recall_sarcastic": 0.0588,
+      "f1_macro": 0.5173,
+      "accuracy": 0.9824
+    },
+    {
+      "train_set": "reviews + Swami (transfer)",
+      "model": "nb",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.0141,
+      "precision_sarcastic": 0.008,
+      "recall_sarcastic": 0.0588,
+      "f1_macro": 0.4926,
+      "accuracy": 0.944
+    },
+    {
+      "train_set": "reviews + Swami (transfer)",
+      "model": "nb",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.0488,
+      "precision_sarcastic": 0.0417,
+      "recall_sarcastic": 0.0588,
+      "f1_macro": 0.5205,
+      "accuracy": 0.9844
+    },
+    {
+      "train_set": "reviews + Swami (transfer)",
+      "model": "lr",
+      "features": "text only",
+      "f1_sarcastic": 0.0,
+      "precision_sarcastic": 0.0,
+      "recall_sarcastic": 0.0,
+      "f1_macro": 0.4982,
+      "accuracy": 0.9928
+    },
+    {
+      "train_set": "reviews + Swami (transfer)",
+      "model": "lr",
+      "features": "incongruity only",
+      "f1_sarcastic": 0.1,
+      "precision_sarcastic": 0.3333,
+      "recall_sarcastic": 0.0588,
+      "f1_macro": 0.5482,
+      "accuracy": 0.9928
+    },
+    {
+      "train_set": "reviews + Swami (transfer)",
+      "model": "lr",
+      "features": "text + incongruity",
+      "f1_sarcastic": 0.0,
+      "precision_sarcastic": 0.0,
+      "recall_sarcastic": 0.0,
+      "f1_macro": 0.4983,
+      "accuracy": 0.9932
+    }
+  ],
+  "polarity_correction_ablation": [
+    {
+      "setting": "without sarcasm handling",
+      "all_f1_macro": 0.7171,
+      "all_accuracy": 0.8799,
+      "sarcastic_subset_accuracy": 0.6842,
+      "sarcastic_subset_n": 19
+    },
+    {
+      "setting": "with sarcasm handling (predicted)",
+      "all_f1_macro": 0.7169,
+      "all_accuracy": 0.8797,
+      "sarcastic_subset_accuracy": 0.6842,
+      "sarcastic_subset_n": 19
+    },
+    {
+      "setting": "with sarcasm handling (oracle gold flags)",
+      "all_f1_macro": 0.7179,
+      "all_accuracy": 0.8811,
+      "sarcastic_subset_accuracy": 0.8947,
+      "sarcastic_subset_n": 19
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+train_set,model,features,f1_sarcastic,precision_sarcastic,recall_sarcastic,f1_macro,accuracy
+reviews only,nb,text only,0.0656,0.0455,0.1176,0.527,0.9772
+reviews only,nb,incongruity only,0.0352,0.0181,0.5882,0.4558,0.7808
+reviews only,nb,text + incongruity,0.0714,0.0513,0.1176,0.5305,0.9792
+reviews only,lr,text only,0.0,0.0,0.0,0.4979,0.9916
+reviews only,lr,incongruity only,0.0403,0.0209,0.5882,0.4673,0.8096
+reviews only,lr,text + incongruity,0.1667,0.2857,0.1176,0.5813,0.992
+reviews only,svm,text only,0.0,0.0,0.0,0.4983,0.9932
+reviews only,svm,incongruity only,0.0,0.0,0.0,0.4983,0.9932
+reviews only,svm,text + incongruity,0.0,0.0,0.0,0.4982,0.9928
+reviews + Swami (transfer),nb,text only,0.0435,0.0345,0.0588,0.5173,0.9824
+reviews + Swami (transfer),nb,incongruity only,0.0141,0.008,0.0588,0.4926,0.944
+reviews + Swami (transfer),nb,text + incongruity,0.0488,0.0417,0.0588,0.5205,0.9844
+reviews + Swami (transfer),lr,text only,0.0,0.0,0.0,0.4982,0.9928
+reviews + Swami (transfer),lr,incongruity only,0.1,0.3333,0.0588,0.5482,0.9928
+reviews + Swami (transfer),lr,text + incongruity,0.0,0.0,0.0,0.4983,0.9932

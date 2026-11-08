@@ -1,0 +1,8 @@
+aspect,n,accuracy,precision_macro,recall_macro,f1_macro
+app_support,1332,0.9039,0.7409,0.7216,0.7302
+delivery_speed,581,0.9191,0.7257,0.7257,0.7257
+product_quality,510,0.8941,0.6094,0.6234,0.616
+price,466,0.8004,0.6033,0.6101,0.6064
+general,366,0.8279,0.7688,0.7338,0.7184
+delivery_partner,229,0.869,0.5672,0.5718,0.5693
+packaging,106,0.8491,0.6975,0.6896,0.6925

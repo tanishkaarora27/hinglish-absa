@@ -1,0 +1,150 @@
+review_id,text,rating,sarcastic,source
+demo_001,"Delivery 8 min me aa gayi, bahut fast service",5,0,SYNTHETIC_DEMO
+demo_002,"Doodh expired tha, packet khula hua tha",1,0,SYNTHETIC_DEMO
+demo_003,"Wah bhai kya baat hai, 10 min bola aur 2 ghante lag gaye 👏 great job",1,1,SYNTHETIC_DEMO
+demo_004,Sabzi fresh thi aur price bhi theek tha,4,0,SYNTHETIC_DEMO
+demo_005,"App baar baar crash ho raha hai, payment fail ho gaya",1,0,SYNTHETIC_DEMO
+demo_006,"Delivery boy bahut polite tha, thanks bhaiya",5,0,SYNTHETIC_DEMO
+demo_007,Price thoda mehnga hai but delivery fast hai,3,0,SYNTHETIC_DEMO
+demo_008,"Fruits sade hue the, aam bilkul kharab",1,0,SYNTHETIC_DEMO
+demo_009,"Packaging bahut acchi thi, kuch bhi leak nahi hua",5,0,SYNTHETIC_DEMO
+demo_010,"Customer care ne koi reply nahi diya, refund abhi tak nahi aaya",1,0,SYNTHETIC_DEMO
+demo_011,"Great, mera order kisi aur ko deliver kar diya, bahut badhiya service 🙂",1,1,SYNTHETIC_DEMO
+demo_012,"Delivery time normal tha, 20 minute ke aas paas",3,0,SYNTHETIC_DEMO
+demo_013,"Bread taza tha, eggs bhi theek the",4,0,SYNTHETIC_DEMO
+demo_014,"Handling fee aur surge fee lagakar bill double ho gaya, loot machi hai",2,0,SYNTHETIC_DEMO
+demo_015,"Delivery partner rude tha, gate pe chilla raha tha",1,0,SYNTHETIC_DEMO
+demo_016,"App ka UI simple hai, order karna easy hai",4,0,SYNTHETIC_DEMO
+demo_017,"Wow superb, expired chips bhej diye, thank you so much Blinkit",1,1,SYNTHETIC_DEMO
+demo_018,"Bottle leak ho gayi thi, pura bag geela",2,0,SYNTHETIC_DEMO
+demo_019,"Prices average hain, na sasta na mehnga",3,0,SYNTHETIC_DEMO
+demo_020,"Rider ne call karke address confirm kiya, nice guy",5,0,SYNTHETIC_DEMO
+demo_021,"Order 45 minute late aaya, raat ke 11 baje",1,0,SYNTHETIC_DEMO
+demo_022,"Refund 2 din me aa gaya, support helpful tha",4,0,SYNTHETIC_DEMO
+demo_023,"Kya baat hai, 3 baar cancel hua order, genius app 👏👏",1,1,SYNTHETIC_DEMO
+demo_024,Paneer ki quality mast thi,5,0,SYNTHETIC_DEMO
+demo_025,Packet thoda dented tha but andar saman theek tha,3,0,SYNTHETIC_DEMO
+demo_026,"Sasta aur accha, paisa vasool",5,0,SYNTHETIC_DEMO
+demo_027,"Delivery wale bhaiya ne doorstep tak laaya, thank you",5,0,SYNTHETIC_DEMO
+demo_028,"App me search kaam nahi karta, bahut irritating",2,0,SYNTHETIC_DEMO
+demo_029,Delivery toh 10 min me ho gayi lekin doodh phat gaya tha,2,0,SYNTHETIC_DEMO
+demo_030,Bahut accha experience overall,5,0,SYNTHETIC_DEMO
+demo_031,"Bakwas service, kabhi order mat karna",1,0,SYNTHETIC_DEMO
+demo_032,"Theek thaak hai, kuch khaas nahi",3,0,SYNTHETIC_DEMO
+demo_033,"Wah, 1 ghanta wait karwa ke bola out of stock, amazing 😂",1,1,SYNTHETIC_DEMO
+demo_034,"Fresh vegetables, timely delivery, no complaints",5,0,SYNTHETIC_DEMO
+demo_035,"Delivery fee 30 rupees extra le liye, pehle free tha",2,0,SYNTHETIC_DEMO
+demo_036,Bhaiya late aaye but polite the,3,0,SYNTHETIC_DEMO
+demo_037,"OTP nahi aa raha login ke liye, app useless",1,0,SYNTHETIC_DEMO
+demo_038,"Packaging normal thi, plastic bag me aaya",3,0,SYNTHETIC_DEMO
+demo_039,"Thank you Zepto, fruits me se keede nikle, kya quality hai 👌",1,1,SYNTHETIC_DEMO
+demo_040,"Milk packet seal tha, fresh tha, good",4,0,SYNTHETIC_DEMO
+demo_041,"Delivery slow thi aaj, 35 minute",2,0,SYNTHETIC_DEMO
+demo_042,"Discount coupon kaam kar gaya, achha offer",4,0,SYNTHETIC_DEMO
+demo_043,Rider ne galat gate pe chhod diya aur chala gaya,1,0,SYNTHETIC_DEMO
+demo_044,"Tracking map accurate hai, live location dikhta hai",4,0,SYNTHETIC_DEMO
+demo_045,"Great job, sabzi ki jagah mujhe kisi aur ka order mila, best app 🙃",1,1,SYNTHETIC_DEMO
+demo_046,"Eggs tute hue the, box crushed tha",1,0,SYNTHETIC_DEMO
+demo_047,Price Blinkit se kam hai yahan,4,0,SYNTHETIC_DEMO
+demo_048,"Delivery boy ne 2 baar call kiya, thoda confuse tha but theek hai",3,0,SYNTHETIC_DEMO
+demo_049,Payment UPI se smooth ho gaya,4,0,SYNTHETIC_DEMO
+demo_050,"Delivery on time, as expected",4,0,SYNTHETIC_DEMO
+demo_051,"Chips ka packet half empty tha, quantity kam",2,0,SYNTHETIC_DEMO
+demo_052,"Bahut mehnga, MRP se zyada charge kar rahe hain",1,0,SYNTHETIC_DEMO
+demo_053,"Support chat bot sirf ghoomata hai, koi human nahi milta",1,0,SYNTHETIC_DEMO
+demo_054,"Wah wah, 'instant delivery' 50 minute me, kya speed hai 🚀",1,1,SYNTHETIC_DEMO
+demo_055,"Curd fresh tha, taste accha tha",5,0,SYNTHETIC_DEMO
+demo_056,"Packing average, ek bag me sab daal diya",3,0,SYNTHETIC_DEMO
+demo_057,"Delivery partner bahut helpful tha, lift kharab thi phir bhi upar aaya",5,0,SYNTHETIC_DEMO
+demo_058,"App slow hai, loading me time lagta hai",2,0,SYNTHETIC_DEMO
+demo_059,"Rates theek hain, offers bhi milte rehte hain",4,0,SYNTHETIC_DEMO
+demo_060,"Superb, rider ne mera order raste me kha liya lagta hai, 1 ghante se wait 😂",1,1,SYNTHETIC_DEMO
+demo_061,"Order 12 min me aaya, sab kuch fresh",5,0,SYNTHETIC_DEMO
+demo_062,"Wrong item deliver hua, replacement bhi nahi mila",1,0,SYNTHETIC_DEMO
+demo_063,"Delivery charge zero tha aaj, nice",4,0,SYNTHETIC_DEMO
+demo_064,"Bhaiya ka behaviour theek tha, normal",3,0,SYNTHETIC_DEMO
+demo_065,"Notification aata hai jab order aa jata hai, useful feature",4,0,SYNTHETIC_DEMO
+demo_066,"Amazing, bread me fungus tha, thank you for the free science experiment 🙏",1,1,SYNTHETIC_DEMO
+demo_067,"Ice cream pighal ke aayi, packaging me ice nahi tha",2,0,SYNTHETIC_DEMO
+demo_068,"Delivery 15 min, theek hai",3,0,SYNTHETIC_DEMO
+demo_069,Prices kabhi kabhi badh jaate hain raat ko,3,0,SYNTHETIC_DEMO
+demo_070,"Delivery uncle bahut sweet the, bachhe ko toffee di",5,0,SYNTHETIC_DEMO
+demo_071,"Cart me item add nahi ho raha, bug hai",2,0,SYNTHETIC_DEMO
+demo_072,"Fantastic, 3rd time cancel kiya order, really professional service",1,1,SYNTHETIC_DEMO
+demo_073,"Vegetables kachhe the, ripe nahi",2,0,SYNTHETIC_DEMO
+demo_074,"Sealed packet, no damage, good packing",5,0,SYNTHETIC_DEMO
+demo_075,"Bahut sasta mila aaj, 20 percent off",5,0,SYNTHETIC_DEMO
+demo_076,"Rider raste me 20 minute ruka raha, map pe dikh raha tha",2,0,SYNTHETIC_DEMO
+demo_077,"Customer support ne turant refund kar diya, impressed",5,0,SYNTHETIC_DEMO
+demo_078,"Kya baat hai, mehnge daam pe expired doodh, wah",1,1,SYNTHETIC_DEMO
+demo_079,"Delivery thodi late thi, 25 minute lage",3,0,SYNTHETIC_DEMO
+demo_080,Fruits ka size chhota tha but fresh the,3,0,SYNTHETIC_DEMO
+demo_081,"Packet open condition me aaya, seal tuta hua",1,0,SYNTHETIC_DEMO
+demo_082,Thoda mehnga hai local shop se,3,0,SYNTHETIC_DEMO
+demo_083,"Delivery wala polite tha, time pe aaya",5,0,SYNTHETIC_DEMO
+demo_084,App update ke baad bahut smooth chal raha hai,4,0,SYNTHETIC_DEMO
+demo_085,"Best app ever, 2 ghante baad bola rider nahi mila, 😂😂",1,1,SYNTHETIC_DEMO
+demo_086,"Paneer taza tha, doodh bhi theek",4,0,SYNTHETIC_DEMO
+demo_087,"Packaging accha, sab alag alag bags me",4,0,SYNTHETIC_DEMO
+demo_088,Handling charges kyu lagte hain samajh nahi aata,2,0,SYNTHETIC_DEMO
+demo_089,Delivery boy ne saman gate pe rakh diya bina bataye,2,0,SYNTHETIC_DEMO
+demo_090,Chat support ne 5 min me solve kar diya,5,0,SYNTHETIC_DEMO
+demo_091,"Delivery 30 min, usual time",3,0,SYNTHETIC_DEMO
+demo_092,"Doodh ka taste ajeeb tha, lagta hai purana tha",2,0,SYNTHETIC_DEMO
+demo_093,"Lovely, bottle leak ho ke pura order bheeg gaya, superb packing 👏",1,1,SYNTHETIC_DEMO
+demo_094,Rates market jaise hi hain,3,0,SYNTHETIC_DEMO
+demo_095,"Rider ko address samajh nahi aaya, 3 baar call",2,0,SYNTHETIC_DEMO
+demo_096,"App crash hota hai checkout pe, order nahi ho pata",1,0,SYNTHETIC_DEMO
+demo_097,"Jaldi aa gaya, fresh tha, happy",5,0,SYNTHETIC_DEMO
+demo_098,"Package ki condition theek thi, normal",3,0,SYNTHETIC_DEMO
+demo_099,"Offers bahut acche milte hain, cashback bhi",5,0,SYNTHETIC_DEMO
+demo_100,"Delivery partner ne mask nahi pehna tha, careless",2,0,SYNTHETIC_DEMO
+demo_101,Refund process easy hai app me,4,0,SYNTHETIC_DEMO
+demo_102,"Wonderful, order deliver dikhaya but kuch aaya hi nahi, magic ✨",1,1,SYNTHETIC_DEMO
+demo_103,"Order sahi aaya, koi issue nahi",4,0,SYNTHETIC_DEMO
+demo_104,"Average service, improve karo",3,0,SYNTHETIC_DEMO
+demo_105,"Worst experience, never again",1,0,SYNTHETIC_DEMO
+demo_106,"Sabzi me se badbu aa rahi thi, sadi hui",1,0,SYNTHETIC_DEMO
+demo_107,"Box strong tha, kuch toota nahi",4,0,SYNTHETIC_DEMO
+demo_108,Thoda costly but convenient,3,0,SYNTHETIC_DEMO
+demo_109,"Rider polite, on time, perfect",5,0,SYNTHETIC_DEMO
+demo_110,"App me address save nahi hota, har baar type karo",2,0,SYNTHETIC_DEMO
+demo_111,"Haha great, 'fresh' ande 1 hafte purane the, thanks for the surprise",1,1,SYNTHETIC_DEMO
+demo_112,"Delivery 10 min, zabardast speed",5,0,SYNTHETIC_DEMO
+demo_113,"Prices kabhi kam kabhi zyada, depends",3,0,SYNTHETIC_DEMO
+demo_114,"Delivery boy ne galat order diya phir sahi laaya, theek hai",3,0,SYNTHETIC_DEMO
+demo_115,"Support se baat karna mushkil hai, option hi nahi dikhta",2,0,SYNTHETIC_DEMO
+demo_116,"Fresh fruits, nice packing, fast delivery, sab mast",5,0,SYNTHETIC_DEMO
+demo_117,"Delivery late, saman kharab, price mehnga, pathetic",1,0,SYNTHETIC_DEMO
+demo_118,"Excellent service, 40 min wait aur phir cancel, keep it up 🙂",1,1,SYNTHETIC_DEMO
+demo_119,"Packaging me bubble wrap tha, safe aaya",4,0,SYNTHETIC_DEMO
+demo_120,"Rider ne mujhe hi daant diya late aane pe, wah",1,1,SYNTHETIC_DEMO
+demo_121,"Milk 2 packet order kiya, 1 hi aaya",2,0,SYNTHETIC_DEMO
+demo_122,"Surge fee raat ko lagta hai, otherwise theek",3,0,SYNTHETIC_DEMO
+demo_123,"Order time pe aaya, bhaiya polite, item fresh",5,0,SYNTHETIC_DEMO
+demo_124,"Login problem, OTP late aata hai",2,0,SYNTHETIC_DEMO
+demo_125,"Delivery timing theek hai, 20-25 min",3,0,SYNTHETIC_DEMO
+demo_126,"Quality acchi hai, Blinkit se better",4,0,SYNTHETIC_DEMO
+demo_127,"Bag phata hua tha, saman gir sakta tha",2,0,SYNTHETIC_DEMO
+demo_128,"Genius, delivery fee + handling fee + surge, 100 ka saman 180 ka 👏",1,1,SYNTHETIC_DEMO
+demo_129,Delivery partner ne saman sahi se handover kiya,4,0,SYNTHETIC_DEMO
+demo_130,"App ka dark mode accha hai, UI clean",4,0,SYNTHETIC_DEMO
+demo_131,"Order 1 ghanta late, cold food, bakwas",1,0,SYNTHETIC_DEMO
+demo_132,"Packing fine, product fine, price fine, 4 star",4,0,SYNTHETIC_DEMO
+demo_133,"Rider behaviour average, na accha na bura",3,0,SYNTHETIC_DEMO
+demo_134,"Support ticket 1 hafte se pending, koi response nahi",1,0,SYNTHETIC_DEMO
+demo_135,"Sach me best, 'fresh' sabzi mujhe hi fridge se taazi lagi 😂 nahi",1,1,SYNTHETIC_DEMO
+demo_136,"Delivery jaldi hui, 9 minute",5,0,SYNTHETIC_DEMO
+demo_137,Thoda mehnga lekin quality acchi,4,0,SYNTHETIC_DEMO
+demo_138,"Packaging perfect, cold items cold aaye",5,0,SYNTHETIC_DEMO
+demo_139,"Rider ne doorbell nahi bajayi, order bahar pada raha",2,0,SYNTHETIC_DEMO
+demo_140,"App theek chal raha hai, koi crash nahi",4,0,SYNTHETIC_DEMO
+demo_141,"Normal delivery, normal packing, normal price",3,0,SYNTHETIC_DEMO
+demo_142,"Brilliant, 15 min bola, 90 min ke baad 'rider assigned', kya system hai",1,1,SYNTHETIC_DEMO
+demo_143,"Fresh doodh, sealed packet, time pe, sab badhiya",5,0,SYNTHETIC_DEMO
+demo_144,"Item missing tha order se, refund nahi mila",1,0,SYNTHETIC_DEMO
+demo_145,"Delivery guy friendly tha, smile ke saath diya",5,0,SYNTHETIC_DEMO
+demo_146,"Price list me 50 tha, bill me 65, galat charge",1,0,SYNTHETIC_DEMO
+demo_147,Packet thoda geela tha but product theek,3,0,SYNTHETIC_DEMO
+demo_148,"Love this app, 10 min me doodh aa jata hai",5,0,SYNTHETIC_DEMO
+demo_149,"Congratulations team, aaj phir late, consistency toh hai 😂",1,1,SYNTHETIC_DEMO

@@ -1,0 +1,3 @@
+setting,multi_aspect_instances,multi_accuracy,multi_precision_macro,multi_recall_macro,multi_f1_macro
+no window (full text),2022,0.913,0.6108,0.6122,0.6115
+window k=5,2022,0.9001,0.6458,0.6679,0.6528

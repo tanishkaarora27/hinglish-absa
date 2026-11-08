@@ -1,0 +1,46 @@
+class,rank,feature,weight
+negative,1,lex__win_neg_max,2.314987596120194
+negative,2,text__word__not,1.2800916815573198
+negative,3,text__word__not good,1.091074874410229
+negative,4,text__word__high,1.0171951162242119
+negative,5,text__char__ed ,0.8823444502544002
+negative,6,text__char__not,0.7671922189173038
+negative,7,text__char__not ,0.7422525871444692
+negative,8,text__word__to,0.7330433264878564
+negative,9,text__word__hour,0.7285732030419659
+negative,10,text__word__to delivery,0.7249418849148425
+negative,11,text__char__ not ,0.7162956448218399
+negative,12,text__char__ not,0.7101614205495057
+negative,13,text__word__they,0.6912182310796119
+negative,14,text__word__is very,0.6815240859303545
+negative,15,text__word__<num> rupees,0.6762704232441821
+neutral,1,text__word__to you,1.506871109587318
+neutral,2,text__word__please,1.4793511032828734
+neutral,3,text__char__k ,1.1712391571534106
+neutral,4,text__word__the ui,1.1300204093736352
+neutral,5,text__word__has to,1.0708183613528957
+neutral,6,text__word__give me,1.0599730610008091
+neutral,7,text__word__delivery order,1.0570834453671532
+neutral,8,text__word__ui more,1.0564474575367324
+neutral,9,text__word__bit,1.0563296013564685
+neutral,10,text__word__more easy,1.047018146132767
+neutral,11,text__word__jo,0.9970070273073333
+neutral,12,text__word__performance app,0.9933995735066042
+neutral,13,text__word__check after,0.9123565524117456
+neutral,14,text__word__things check,0.9123565524117456
+neutral,15,text__word__delivery_partner all,0.9123565524117456
+positive,1,lex__win_pos_max,1.928247992857966
+positive,2,text__word__and,1.7299459230723964
+positive,3,text__word__fast_delivery,1.0664041199360013
+positive,4,text__word__us,0.894781693030656
+positive,5,text__char__ f,0.8933012440555619
+positive,6,text__word__response,0.8696642960121643
+positive,7,text__char__ and,0.8564870066523036
+positive,8,text__char__ and ,0.855539642164248
+positive,9,text__char__s ,0.852320361666434
+positive,10,text__char__and ,0.7820085409118968
+positive,11,text__word__kudos,0.7759337834506035
+positive,12,text__char__ an,0.7643303302013411
+positive,13,text__word__kudos to,0.7460793851820012
+positive,14,text__word__as,0.7026193510340041
+positive,15,text__word__offers,0.6997131342766406
